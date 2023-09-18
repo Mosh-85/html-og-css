@@ -3,60 +3,84 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css">
     <title>Forside</title>
 </head>
-<body>
-    <header>
-        <nav>
-            <span>
-                <a href="index.html">Logo</a>
-            </span>
-            <ul>
-                <li><a href="about.html">About</a></li>
-                <li><a href="#">Subscribe</a></li>
-                <li><a href="#">Contact</a></li>
-            </ul>
-        </nav>
-        <h1>Hello World!</h1>
-        <p>Slagord</p>
-    </header>
-    <main>
+    <body>
+        <header>
+            <nav>
+                <span>
+                    <a href="index.html">Logo</a>
+                </span>
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <h1>Hello World!</h1>
+            <p>Slagord</p>
+        </header>
+        <main>
+            <section>
+                <h2>Latest News</h2>
+                <article>
+                    <img src="img/cat-8197577_640.jpg" alt="grå katt som koser seg">
+                    <h3>Grå pus</h3>
+                    <p>Quasi. Ipsam excepteur, quis, aute lorem. Adipisicing minim, so quae ipsum. 
+                    Perspiciatis. Si modi lorem, or velit. Exercitationem reprehenderit magni, nor sunt minima, but consequuntur.</p>
+                    <a href="#" class="read-more-btn">Les mer</a>
+                </article>
+                <article>
+                    <img src="img/turtle-8105993_640.jpg" alt="En kul skildpadde som dukker opp i havoverflaten">
+                    <h3>Skildpadde</h3>
+                    <p>Cupidatat. Ut ex amet, so exercitationem, for rem. Labore quae, for irure. 
+                        Consequuntur aperiam explicabo, nor vel lorem, but aut ullamco. Veniam consequat, yet iste. </p>
+                    <a href="#" class="read-more-btn">Les mer</a>
+                </article>
+                <article>
+                    <img src="img/willow-warbler-8071472_640.jpg" alt="En liten pippip">
+                    <h3>En liten pippip</h3>
+                    <p>Inventore cillum, yet aliquip ipsam quia sunt. 
+                        Irure nequeporro, but veritatis mollit laboriosam, nor quae. Adipisicing quaerat corporis aspernatur, so officia, for odit aliquid.</p>
+                    <a href="#" class="read-more-btn">Les mer</a>
+                </article>
+            </section>
+        </main>
         <section>
-            <h2>Latest News</h2>
-            <article>
-                <img src="img/cat-8197577_640.jpg" alt="grå katt som koser seg">
-                <h3>Grå pus</h3>
-                <p>Quasi. Ipsam excepteur, quis, aute lorem. Adipisicing minim, so quae ipsum. 
-                Perspiciatis. Si modi lorem, or velit. Exercitationem reprehenderit magni, nor sunt minima, but consequuntur.</p>
-                <a href="#" class="read-more-btn">Les mer</a>
-            </article>
-            <article>
-                <img src="img/turtle-8105993_640.jpg" alt="En kul skildpadde som dukker opp i havoverflaten">
-                <h3>Skildpadde</h3>
-                <p>Cupidatat. Ut ex amet, so exercitationem, for rem. Labore quae, for irure. 
-                    Consequuntur aperiam explicabo, nor vel lorem, but aut ullamco. Veniam consequat, yet iste. </p>
-                <a href="#" class="read-more-btn">Les mer</a>
-            </article>
-            <article>
-                <img src="img/willow-warbler-8071472_640.jpg" alt="En liten pippip">
-                <h3>En liten pippip</h3>
-                <p>Inventore cillum, yet aliquip ipsam quia sunt. 
-                    Irure nequeporro, but veritatis mollit laboriosam, nor quae. Adipisicing quaerat corporis aspernatur, so officia, for odit aliquid.</p>
-                <a href="#" class="read-more-btn">Les mer</a>
-            </article>
-        </section>
-    </main>
-    <section>
-        <div id="pynt">
+            <div id="pynt">
 
-        </div>
-        <h2>About</h2>
-        <p>Inventore cillum, yet aliquip ipsam quia sunt. Irure nequeporro,
-             but veritatis mollit laboriosam, nor quae. Adipisicing quaerat corporis aspernatur, so
-              officia, for odit aliquid. Cupidatat. Ut ex amet, so exercitationem, for rem. Labore quae, for irure. 
-              Consequuntur aperiam explicabo, nor vel lorem, but aut ullamco. Veniam consequat, yet iste. Dolores labore, or autem, 
-              or cupidatat. In magnam, do, and nostrud eum. Beatae elit, for incidunt, yet minim. Enim incidunt ullamco numquam veniam, but cupidatat. 
-             Proident laboris. Minima dolores, but quam consectetur non, or suscipit, or architecto.</p>
-    </section>
-</body>
+            </div>
+            <h2>About</h2>
+            <p>Inventore cillum, yet aliquip ipsam quia sunt. Irure nequeporro,
+                but veritatis mollit laboriosam, nor quae. Adipisicing quaerat corporis aspernatur, so
+                officia, for odit aliquid. Cupidatat. Ut ex amet, so exercitationem, for rem. Labore quae, for irure. 
+                Consequuntur aperiam explicabo, nor vel lorem, but aut ullamco. Veniam consequat, yet iste. Dolores labore, or autem, 
+                or cupidatat. In magnam, do, and nostrud eum. Beatae elit, for incidunt, yet minim. Enim incidunt ullamco numquam veniam, but cupidatat. 
+                Proident laboris. Minima dolores, but quam consectetur non, or suscipit, or architecto.</p>
+        </section>
+        <section>
+            <h3>Subscribe</h3>
+            <form action="">
+                <label for="email-signup">Email for newletter signup</label>
+                <input type="text" id="email-signup">
+                <input type="submit" value="Sign up">
+            </form>
+        </section>
+        <footer>
+            <nav>
+                <ul>
+                    <li><a href="about.html">about</a></li>
+                    <li><a href="#">Subscribe</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <ul id="social-icons">
+                <li>f</li>
+                <li>i</li>
+                <li>p</li>
+            </ul>
+        </footer>
+
+    </body>
 </html>
